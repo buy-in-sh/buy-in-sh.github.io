@@ -1,0 +1,71 @@
+/*primary*/
+.sh-button_primary {
+  padding: 0 16px;
+  line-height: 32px;
+  border-radius: 16px;
+  border: solid 2px #428675;
+  background-color: white;
+}
+
+.sh-button_primary:hover {
+  background-color: #428675;
+}
+
+@media (pointer: coarse) {
+  .sh-button_primary:hover {
+    background-color: white;
+  }
+
+  .sh-button_primary:active {
+    background-color: #428675;
+  }
+}
+
+/*small*/
+.sh-button_small {
+  line-height: 24px;
+  font-size: 12px;
+  padding: 0 12px;
+  border: solid 1px #428675;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.sh-button_small:hover {
+  background-color: #428675;
+}
+
+@media (pointer: coarse) {
+  .sh-button_small:hover {
+    background-color: white;
+  }
+
+  .sh-button_small:active {
+    background-color: #428675;
+  }
+}
+
+/*reverse*/
+.sh-button_reverse {
+  line-height: 24px;
+  font-size: 12px;
+  padding: 0 12px;
+  border-radius: 12px;
+  background-color: rgba(192, 72, 81, 0.8);
+  border: solid 1px white;
+  color: white;
+}
+
+.sh-button_brand:hover {
+  background-color: #c04851;
+}
+
+@media (pointer: coarse) {
+  .sh-button_brand:hover {
+    background-color: rgba(192, 72, 81, 0.8);
+  }
+
+  .sh-button_brand:active {
+    background-color: #c04851;
+  }
+}

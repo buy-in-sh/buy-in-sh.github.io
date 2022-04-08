@@ -1,0 +1,21 @@
+.sh-application {
+  padding: 16px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.sh-application > h1 {
+  text-align: center;
+}
+
+.sh-application > .sh-search-bar {
+  margin-top: 16px;
+}
+
+.sh-application > .sh-keywords {
+  margin-top: 4px;
+}
+
+.sh-application > .sh-products {
+  margin-top: 16px;
+}

@@ -1,0 +1,25 @@
+.sh-input {
+  line-height: 32px;
+  padding-left: 16px;
+  border: solid 2px #36292f;
+  border-radius: 16px;
+  outline: none;
+}
+
+.sh-input:focus {
+  border-color: #428675;
+}
+
+.sh-search-bar {
+  display: flex;
+}
+
+.sh-search-bar .sh-input {
+  flex: 4;
+  margin-right: 8px;
+}
+
+.sh-search-bar .sh-button {
+  margin-left: 8px;
+  flex: 1;
+}

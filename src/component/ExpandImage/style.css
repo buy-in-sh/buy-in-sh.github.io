@@ -1,0 +1,19 @@
+.sh-expand-image {
+  position: relative;
+}
+
+.sh-expand-image-wrapper {
+  overflow: hidden;
+}
+
+.sh-expand-image-wrapper > img {
+  width: 100%;
+}
+
+.sh-expand-image > .sh-button {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  bottom: 0;
+  z-index: 0;
+}

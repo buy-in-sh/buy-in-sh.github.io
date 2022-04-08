@@ -1,0 +1,39 @@
+.sh-product {
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(54, 41, 47, 0.2);
+}
+
+.sh-product__content {
+  background-color: #fffef9;
+  padding: 8px;
+}
+
+.sh-product__detail,
+.sh-product__price,
+.sh-product__delivery,
+.sh-product .sh-hr,
+.sh-product__contacts {
+  margin-top: 8px;
+}
+
+.sh-product__number {
+  color: #c04851;
+  font-size: 24px;
+}
+
+.sh-product__contact {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.sh-product__contact > div {
+  flex: 1;
+  margin-right: 4px;
+}
+
+.sh-product__contact > a {
+  margin-left: 4px;
+}
