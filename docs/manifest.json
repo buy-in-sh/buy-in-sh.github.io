@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "上海团购",
+  "name": "疫情下上海团购入口",
   "icons": [
     {
       "src": "favicon.ico",
