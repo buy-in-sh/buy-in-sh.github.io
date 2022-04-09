@@ -6,12 +6,10 @@ const data = [];
 function readFile(filePath) {
   const state = fs.statSync(filePath);
   if (state.isFile()) {
-    console.log(filePath, "1234");
     if (path.extname(filePath) === ".json") {
       const json = fs.readFileSync(filePath);
       data.push(...JSON.parse(json));
     }
-    console.log(filePath);
   } else if (state.isDirectory()) {
     const files = fs.readdirSync(filePath);
     files.forEach((file) => {

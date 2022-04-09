@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run data && npm run build",
     "deploy": "mv ./build ./docs",
     "data": "node ./data/script.js",
     "start": "react-scripts start",
