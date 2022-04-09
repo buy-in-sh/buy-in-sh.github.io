@@ -16,6 +16,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "mv ./build ./docs",
+    "data": "node ./data/script.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
